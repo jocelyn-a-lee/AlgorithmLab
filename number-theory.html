@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Theory | Algorithm Lab</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <h2>Algorithm Lab</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#explore-modules">Explore</a>
+        <a href="Research">Research</a>
+        <a href="index.html#purpose">About</a>
+    </nav>
+</header>
+<main>
+    <section class="hero">
+        <h1>Number Theory</h1>
+        <p>Explore the mathematical foundations of computing through interactive algorithms and computational experiments.</p>
+    </section>
+<hr>
+    <section class="explorer-section">
+        <h2>Euclidean Algorithm Explorer</h2>
+        <p>Calculate the greatest common divisor of two integers and investigate how efficiently the Euclidean algorithm works.</p>
+        <div class="calculator">
+            <label for="number-a">First Number</label>
+            <input type="number" id="number-a">
+            <label for="number-b">Second Number</label>
+            <input type="number" id="number-b">
+            <button id="calculate-btn" class="button-primary">Calculate GCD</button>
+        </div>
+        <div id="results" class="results-panel">
+    <h3>Calculation Results</h3>
+
+    <div class="results-grid">
+        <div class="result-card">
+            <p>Greatest Common Divisor</p>
+            <span id="gcd-value">—</span>
+        </div>
+
+        <div class="result-card">
+            <p>Algorithm Iterations</p>
+            <span id="steps-value">—</span>
+        </div>
+    </div>
+</div>
+    </section>
+</main>
+<script src="js/number-theory.js"></script>
+</body>
+</html>
