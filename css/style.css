@@ -236,3 +236,6 @@ nav a, .modules-title {
         grid-template-columns: 1fr;
     }
 }
+.nav-btn{
+    font-family: 'JetBrains Mono', monospace;
+}
